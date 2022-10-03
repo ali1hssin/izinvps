@@ -28,7 +28,7 @@ fi
 
 clear
 echo -e "${GREEN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
-echo -e "\E[41;1;39m             ⇱ MENU TOOLS INSTALLER ⇲                            \E[0m"
+echo -e "\E[41;1;39m            ⇱ MENU TOOLS INSTALLER ⇲                  \E[0m"
 echo -e "${GREEN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
 echo -e "[${GREEN}01${NC}] ${PURPLE}👉${NC} Install Script V.1 ( ${GREEN}MultiPort${NC} )"
 echo -e "[${GREEN}02${NC}] ${PURPLE}👉${NC} Install Script V.2 ( ${GREEN}No MultiPort${NC} )"
@@ -51,7 +51,7 @@ case "$x" in
    
    3 | 03)
    clear
-   https://t.me/r1f4n_112
+   read -n 1 -s -r -p "Chat Admin Ridwan Store Via Tele ID Tele : @r1f4n_112"
    ;;
    *)
    xdrg

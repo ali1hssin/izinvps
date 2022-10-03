@@ -52,6 +52,7 @@ case "$x" in
    3 | 03)
    clear
    read -n 1 -s -r -p "Chat Admin Ridwan Store Via Tele ID Tele : @r1f4n_112"
+   install
    ;;
    *)
    xdrg

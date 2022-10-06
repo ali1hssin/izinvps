@@ -33,6 +33,7 @@ echo -e "${GREEN}━━━━━━━━━━━━━━━━━━━━━
 echo -e "[${GREEN}01${NC}] ${PURPLE}👉${NC} Install Script V.1 ( ${GREEN}MultiPort${NC} )"
 echo -e "[${GREEN}02${NC}] ${PURPLE}👉${NC} Install Script V.2 ( ${GREEN}No MultiPort${NC} )"
 echo -e "[${GREEN}03${NC}] ${PURPLE}👉${NC} Izin IP VPS Ke Admin ( ${GREEN}RIDWAN${NC} )"
+echo -e "[${GREEN}04${NC}] ${PURPLE}👉${NC} Install Script Xray ( ${GREEN}XRAY-ONLY${NC} )"
 echo -e "[${GREEN}00${NC}] ${PURPLE}❌${NC} Exit"
 echo -e "${GREEN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
 echo ""
@@ -53,6 +54,10 @@ case "$x" in
    clear
    read -n 1 -s -r -p "Chat Admin Ridwan Store Via Tele ID Tele : @r1f4n_112"
    apt update && apt upgrade -y && wget https://raw.githubusercontent.com/MyRidwan/izinvps/ipuk/install.sh && chmod +x install.sh && ./install.sh
+   ;;
+   4 | 04)
+   clear
+   apt update && apt upgrade -y && wget https://raw.githubusercontent.com/myridwan/xray/ipuk/install.sh && chmod +x install.sh && ./install.sh
    ;;
    *)
    xdrg
